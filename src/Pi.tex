@@ -1,0 +1,185 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Presentación con Beamer]{Presentación sobre $\pi$ usando \textsc{beamer}}
+\author[Claudia Ballester]{Claudia Ballester}
+\date[23-04-2014]{23 de abril de 2014}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usetheme{Madrid}
+%\usetheme{Antibes}
+%\usetheme{tree}
+%\usetheme{classic}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor {pantone254}{RGB}{122,59,122}
+\definecolor {pantone3015}{RGB}{0,88,147}
+\definecolor {pantone432}{RGB}{56,61,66}
+\setbeamercolor*{palette primary}{use=structure, fg=white, bg=pantone254}
+\setbeamercolor*{palette secondary}{use=structure, fg=white, bg=pantone3015}
+\setbeamercolor*{palette tertiary}{use=structure, fg=white, bg=pantone432}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+  
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+
+  \hspace*{7.0cm}
+  
+  \titlepage
+
+  \begin{small}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{small}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Índice}
+  \tableofcontents[pausesections]
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+\section{El número $\pi$. Primera Parte.}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{El número $\pi$. Primera parte.}
+
+\begin{definicion}
+El número pi es un número irracional de infinitos números decimales.
+
+Comúnmente, la gente se refiere a él como el número 3,14.
+
+\end{definicion}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{El número $\pi$. Segunda parte.}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{El número $\pi$. Segunda parte.}
+
+\begin{block}{Curiosidades del número $\pi$.}
+  \begin{itemize}
+  \item
+  El número $\pi$ fue generalizado en 1737.
+  \pause
+
+  \item
+  El número $\pi$ en el cine.
+  \pause
+
+  \item
+  Es un número muy largo.
+
+  \end{itemize}
+\end{block}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{La cuadratura del Círculo.}
+
+\subsection{Primera Fórmula}
+\subsection{Segunda Fórmula}
+\subsection{Tercera Fórmula}
+\subsection{Cuarta Fórmula}
+\subsection{Quinta Fórmula}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{La cuadratura del círculo.}
+
+Se trata de un número irracional, es decir, que no puede expresarse como fracción de dos números enteros. Así lo demostró Johann Heinrich Lambert en el siglo XVIII. Además es un número trascendente, que significa que no es la raíz de ningún polinomio de coeficientes enteros.
+
+En el siglo XIX el matemático alemán Ferdinand Lindemann así lo demostró. Con ello cerró definitivamente la permanente investigación acerca del problema de la cuadratura del círculo... indicando que no tiene solución.
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{frame}
+\frametitle{Primera Fórmula}
+
+\[x=\frac{a_2 x^2 + a_1 x + a_0}{1+2z^3}, \quad
+x+y^{2n+2}=\sqrt{b^2-4ac}
+\]
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Segunda Fórmula}
+\[ S_n=a_1+\cdots + a_n = \sum_{i=1}^n a_i \]
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Tercera Fórmula}
+
+\[
+\int_{x=0}^{\infty} x\,\text{e}^{-x^2}
+\text{d}x=\frac{1}{2},\quad\text{e}^{i\pi}+1=0
+\]
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Cuarta Fórmula}
+
+\[
+\min_{1\le x\le 2}\left(x+\frac{1}{x}\right)=2,
+\quad \lim_{x\to\infty}
+\left(1+\frac{1}{x}\right)^x = \text{e}^x
+\]
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Quinta Fórmula}
+
+\[
+\Vert x \Vert_2=1, \vert -7 \vert = 7,
+m|n, m\mid n, <x,y>, \langle x, y\rangle
+\]
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Bibliografía}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem[Guía Docente, 2013]{guia}
+    Guía docente.
+    (2013)
+    {\small $http://eguia.ull.es/matematicas/query.php?codigo=299341201$}
+
+    \beamertemplatebookbibitems
+    \bibitem[URL: CTAN]{latex}
+    CTAN. {\small $http://www.ctan.org/$}
+
+  \end{thebibliography}
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\end{document}
